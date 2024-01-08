@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Resume Builder</title>
+    <link rel="stylesheet" href="preview.css">
+    
+</head>
+<body>
+    
+    <div class="leftside">
+        <div class="container">
+            <title>Profile Image Upload</title>
+</head>
+<body>
+  <h1>Upload Your Profile Image</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <label for="profileImage">Choose File:</label>
+    <input type="file" id="profileImage" name="profileImage" accept="image/*">
+    <br><br>
+  </form>
+
+  
+
+
+            <div class="main">
+                <div class="left">
+                    <h2>Personal Information</h2>
+            <p class="name">First Name:</p>
+            <input type="text" id="name" name="first name"><br><br>
+            <p class="name">Last Name:</p>
+            <input type="text" id="name" name="first name"><br><br>
+
+            <h2>Contact Details</h2>
+
+            <p class="email">Email:</p>
+            <input type="email" id="email" name="email"><br><br>
+            <p class="address">Address:</p>
+            <input type="address" id="address" name="address"><br><br>
+            <p class="zipcode">Postal Code:</p>
+            <input type="zipcode" id="zipcode" name="zipcode"><br><br>
+            <p class="city">City:</p>
+            <input type="city" id="city" name="city"><br><br>
+
+            <p class="country">Nationality:</p>
+            <input type="country" id="country" name="Country"><br><br>
+            <p class="number">Phone Number:</p>
+            <input type="number" id="number" name="number"><br><br>
+            <p class="dob">DOB:</p>
+            <input type="date" id="dob" name="dob"><br><br>
+            <p class="gender">Gender:</p>
+            <input type="gender" id="gender" name="gender"><br><br>
+                    
+                    
+                    <h2>Education</h2>
+                    <p>Primary school:</p>
+                <input type="text" placeholder="e.g Cornerstone In't Primary School" name="primary school" id="pschool" required><br><br> 
+            <label for="start-year">Start Year:</label>
+            <select id="start-year"> <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
+              <option value="2000">2000</option>
+              <option value="1999">1999</option>
+            </select>
+
+            <label for="end-year">End Year:</label>
+            <select id="end-year">
+              <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
+              <option value="2000">2000</option>
+              <option value="1999">1999</option>
+            </select>
+            
+
+                <p>Secondary school:</p>
+                <input type="text" placeholder="e.g Government Comprehensive Secondary School" name="secondary school" id="sschool" required><br><br>
+                <label for="start-year">Start Year:</label>
+                <select id="start-year"> <option value="2023">2023</option>
+                  <option value="2022">2022</option>
+                  <option value="2021">2021</option>
+                  <option value="2020">2020</option>
+                  <option value="2019">2019</option>
+                  <option value="2018">2018</option>
+                  <option value="2017">2017</option>
+                  <option value="2016">2016</option>
+                  <option value="2015">2015</option>
+                  <option value="2014">2014</option>
+                  <option value="2013">2013</option>
+                  <option value="2012">2012</option>
+                  <option value="2011">2011</option>
+                  <option value="2010">2010</option>
+                  <option value="2009">2009</option>
+                  <option value="2008">2008</option>
+                  <option value="2007">2007</option>
+                  <option value="2006">2006</option>
+                  <option value="2005">2005</option>
+                  <option value="2004">2004</option>
+                  <option value="2003">2003</option>
+                  <option value="2002">2002</option>
+                  <option value="2001">2001</option>
+                  <option value="2000">2000</option>
+                  <option value="1999">1999</option>
+                </select>
+    
+                <label for="end-year">End Year:</label>
+                <select id="end-year">
+                  <option value="2023">2023</option>
+                  <option value="2022">2022</option>
+                  <option value="2021">2021</option>
+                  <option value="2020">2020</option>
+                  <option value="2019">2019</option>
+                  <option value="2018">2018</option>
+                  <option value="2017">2017</option>
+                  <option value="2016">2016</option>
+                  <option value="2015">2015</option>
+                  <option value="2014">2014</option>
+                  <option value="2013">2013</option>
+                  <option value="2012">2012</option>
+                  <option value="2011">2011</option>
+                  <option value="2010">2010</option>
+                  <option value="2009">2009</option>
+                  <option value="2008">2008</option>
+                  <option value="2007">2007</option>
+                  <option value="2006">2006</option>
+                  <option value="2005">2005</option>
+                  <option value="2004">2004</option>
+                  <option value="2003">2003</option>
+                  <option value="2002">2002</option>
+                  <option value="2001">2001</option>
+                  <option value="2000">2000</option>
+                  <option value="1999">1999</option>
+                </select>               
+            
+                <p>Tertiary/University:</p>
+                <input type="text" placeholder="e.g Rivers State University." name="university" id="university" required><br><br>
+                <label for="start-year">Start Year:</label>
+                <select id="start-year"> <option value="2023">2023</option>
+                  <option value="2022">2022</option>
+                  <option value="2021">2021</option>
+                  <option value="2020">2020</option>
+                  <option value="2019">2019</option>
+                  <option value="2018">2018</option>
+                  <option value="2017">2017</option>
+                  <option value="2016">2016</option>
+                  <option value="2015">2015</option>
+                  <option value="2014">2014</option>
+                  <option value="2013">2013</option>
+                  <option value="2012">2012</option>
+                  <option value="2011">2011</option>
+                  <option value="2010">2010</option>
+                  <option value="2009">2009</option>
+                  <option value="2008">2008</option>
+                  <option value="2007">2007</option>
+                  <option value="2006">2006</option>
+                  <option value="2005">2005</option>
+                  <option value="2004">2004</option>
+                  <option value="2003">2003</option>
+                  <option value="2002">2002</option>
+                  <option value="2001">2001</option>
+                  <option value="2000">2000</option>
+                  <option value="1999">1999</option>
+                </select>
+    
+                <label for="end-year">End Year:</label>
+                <select id="end-year">
+                  <option value="2023">2023</option>
+                  <option value="2022">2022</option>
+                  <option value="2021">2021</option>
+                  <option value="2020">2020</option>
+                  <option value="2019">2019</option>
+                  <option value="2018">2018</option>
+                  <option value="2017">2017</option>
+                  <option value="2016">2016</option>
+                  <option value="2015">2015</option>
+                  <option value="2014">2014</option>
+                  <option value="2013">2013</option>
+                  <option value="2012">2012</option>
+                  <option value="2011">2011</option>
+                  <option value="2010">2010</option>
+                  <option value="2009">2009</option>
+                  <option value="2008">2008</option>
+                  <option value="2007">2007</option>
+                  <option value="2006">2006</option>
+                  <option value="2005">2005</option>
+                  <option value="2004">2004</option>
+                  <option value="2003">2003</option>
+                  <option value="2002">2002</option>
+                  <option value="2001">2001</option>
+                  <option value="2000">2000</option>
+                  <option value="1999">1999</option>
+                </select>
+
+                <p>Master Of Science: Computer Science:</p>
+                <input type="text" placeholder="e.g Rivers State Univertsity." name="primary school" id="pschool" required><br><br> 
+            <label for="start-year">Start Year:</label>
+            <select id="start-year"> <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
+              <option value="2000">2000</option>
+              <option value="1999">1999</option>
+            </select>
+
+            <label for="end-year">End Year:</label>
+            <select id="end-year">
+              <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
+              <option value="2000">2000</option>
+              <option value="1999">1999</option>
+            </select>
+
+            </div>
+                
+               
+                <div class="right">
+                    <h2>Work Experience</h2>
+                    <p class="designation">Designation:</p>
+                    <input type="text" id="designation" name="designation"><br><br>
+                    <p class="jobtitle">Job Title:</p>
+                    <input type="text" id="jobtitle" name="jobtitle"><br><br>
+                    <p class="employer">Employer:</p>
+                    <input type="text" id="employer" name="employer"><br><br> 
+
+                    <p>Duration: </p>
+                    <label for="start-year">Start Year:</label>
+                <select id="start-year"> <option value="2023">2023</option>
+                  <option value="2022">2022</option>
+                  <option value="2021">2021</option>
+                  <option value="2020">2020</option>
+                  <option value="2019">2019</option>
+                  <option value="2018">2018</option>
+                  <option value="2017">2017</option>
+                  <option value="2016">2016</option>
+                  <option value="2015">2015</option>
+                  <option value="2014">2014</option>
+                  <option value="2013">2013</option>
+                  <option value="2012">2012</option>
+                  <option value="2011">2011</option>
+                  <option value="2010">2010</option>
+                  <option value="2009">2009</option>
+                  <option value="2008">2008</option>
+                  <option value="2007">2007</option>
+                  <option value="2006">2006</option>
+                  <option value="2005">2005</option>
+                  <option value="2004">2004</option>
+                  <option value="2003">2003</option>
+                  <option value="2002">2002</option>
+                  <option value="2001">2001</option>
+                  <option value="2000">2000</option>
+                  <option value="1999">1999</option>
+                </select>
+    
+                <label for="end-year">End Year:</label>
+                <select id="end-year">
+                  <option value="2023">2023</option>
+                  <option value="2022">2022</option>
+                  <option value="2021">2021</option>
+                  <option value="2020">2020</option>
+                  <option value="2019">2019</option>
+                  <option value="2018">2018</option>
+                  <option value="2017">2017</option>
+                  <option value="2016">2016</option>
+                  <option value="2015">2015</option>
+                  <option value="2014">2014</option>
+                  <option value="2013">2013</option>
+                  <option value="2012">2012</option>
+                  <option value="2011">2011</option>
+                  <option value="2010">2010</option>
+                  <option value="2009">2009</option>
+                  <option value="2008">2008</option>
+                  <option value="2007">2007</option>
+                  <option value="2006">2006</option>
+                  <option value="2005">2005</option>
+                  <option value="2004">2004</option>
+                  <option value="2003">2003</option>
+                  <option value="2002">2002</option>
+                  <option value="2001">2001</option>
+                  <option value="2000">2000</option>
+                  <option value="1999">1999</option>
+                </select>
+
+                    <div class="last">
+                        <h2>Task Performed</h2>  
+                <ul>
+                    <li>Developed and maintained web application using React, Node.js, and SQL</li>
+                    <li>Implemented Responsive Design using CSS Flexbox and Media Queries</li>
+                    <li>Collaborated with cross-functional teams to deliver high-quality software products</li>
+                </ul> 
+
+                <ul>
+                    <li>Created and maintained websites using HTML, CSS and Javascript</li>
+                    <li>Optimized website performance and user Experience using best practices</li>
+                    <li>Worked with Clients to understand their need and deliver custom solutions</li>
+                </ul>
+
+                <h2>Skills</h2>
+                
+                    <p class="skills">Skills:</p>
+                    <input type="text" placeholder="e.g Leadership Skills" id="skills" name="skills">
+                    <input type="text" placeholder="e.g Teamwork Skills" id="skills" name="skills">
+                    <input type="text" placeholder="e.g Time Management" id="skills" name="skills">
+                    <input type="text" placeholder="e.g Communcation Skills" id="skills" name="skills">
+                    <input type="text" placeholder="e.g Adaptability" id="skills" name="skills">
+                
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="rightside">
+        <div class="container">
+            <div class="header">
+                <div class="img-area">
+                    <img src="empty-profile.png" alt="">
+                </div>
+                <h1>Anthony Taylor</h1>
+                <h3>Full-Stack Web Developer</h3>
+            </div>
+
+            <div class="main">
+                <div class="left">
+                    <h2>Personal Information</h2>
+                    <p><strong>First Name:</strong> Anthony </p>
+                    <p><strong>Last Name:</strong> Taylor </p>
+                    
+                    <h2>Contact Details</h2>
+                    <p><strong>Email:</strong> anthonytaylor@gmail.com</p>
+                    <p><strong>Address:</strong> 4 Arden Close, Easthampstead, Bracknell, London, UK</p>
+                    <p><strong>Postal Code:</strong> RG12 7EZ</p>
+                    <p><strong>City:</strong> London</p>
+                    <p><strong>Nationality:</strong> United Kingdom</p>
+                    <p><strong>Phone Number:</strong> +44 0203 0484377</p>
+                    <p><strong>Age:</strong> 45</p>
+                    <p><strong>Gender:</strong> Private</p>
+
+
+
+                    <h2>Education</h2>
+                    <p><strong>Primary School:</strong> e.g</p>
+                    <p>Cornerstone In't Primary School.</p>
+                    <p>Start Year: 2004 - End Year: 2009</p>
+
+                    <p><strong>Secondary School:</strong> e.g</p>
+                    <p>Government Comprehensive Secondary School, Borikiri, PH.</p>
+                    <p>Start Year: 2011 - End Year: 2018</p>
+
+                    <p><strong>Tertiary/University:</strong></p>
+                    <p>Rivers State Univertsity.</p>
+                    <p>Start Year: 2019 - End Year: 2023</p>
+
+                    <p><strong>Master Of Science: Computer Science</strong></p>
+                    <p>Rivers State Univertsity.</p>
+                    <p>Start Year: 2024 - End Year: 2026</p>
+                    
+                </div>
+
+                <div class="right">
+                    <h2>Work Experience</h2>
+                    <p><strong>Designation:</strong> Internship</p>
+                    <p><strong>Job Title:</strong> Software Developer</p>
+                    <p><strong>Employer:</strong> Cinfores Limited</p>
+                    <p><strong>Duration:</strong> 2023 - 2024</p>
+
+                    <h2>Task Performed</h2>
+                    <ul>
+                        <li>Developed and maintained web application using React, Node.js, and SQL</li>
+                        <li>Implemented Responsive Design using CSS Flexbox and Media Queries</li>
+                        <li>Collaborated with cross-functional teams to deliver high-quality software products</li>
+                    </ul>
+                    <ul>
+                        <li>Created and maintained websites using HTML, CSS and Javascript</li>
+                        <li>Optimized website performance and user Experience using best practices</li>
+                        <li>Worked with Clients to understand their need and deliver custom solutions</li>
+                    </ul>
+
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Leadership Skills</li>
+                        <li>Teamwork Skills</li>
+                        <li>Time Management</li>
+                        <li>Communcation Skills</li>
+                        <li>Adaptability</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="print">
+            <p>Print</p>
+        </div>
+    </div>
+</body>
+</html>
